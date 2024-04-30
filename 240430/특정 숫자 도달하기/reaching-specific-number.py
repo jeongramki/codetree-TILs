@@ -7,4 +7,4 @@ for elem in arr :
     if elem >= 250 : break
     sum += elem
     count += 1
-print(sum, sum/count)
+print(f"{sum} {(sum/count):.1f}" )
