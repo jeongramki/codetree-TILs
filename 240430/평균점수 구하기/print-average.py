@@ -1,3 +1,3 @@
 arr = map(float,input().split())
 
-print(sum(arr)/8)
+print(f"{(sum(arr)/8):.1f}")
