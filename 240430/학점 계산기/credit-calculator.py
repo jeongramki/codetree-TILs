@@ -11,6 +11,6 @@ avr = sum/num
 
 print(f"{avr:.1f}")
 
-if avr > 4.0 : print('Perfect')
-elif (4> avr > 3) : print('Good')
+if avr >= 4.0 : print('Perfect')
+elif (4> avr >= 3) : print('Good')
 else : print('Poor')
