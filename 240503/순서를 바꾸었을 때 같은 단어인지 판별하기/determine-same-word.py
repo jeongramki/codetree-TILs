@@ -9,5 +9,5 @@ else :
         if A[i] != B[i] : cnt +=1
         else : pass
     
-    if cnt > 2 : print('No')
+    if cnt > 3 : print('No')
     else : print('Yes')
