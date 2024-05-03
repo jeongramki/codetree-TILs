@@ -1,16 +1,5 @@
-A= input()
-B= input()
+str1 = input()
+str2 = input()
 
-cnt = 0 
-if list(A).sort() == list(B).sort() : 
-
-    if len(A) != len (B) : print('No')
-    else : 
-        for i in range(len(A)) : 
-            if A[i] != B[i] : cnt +=1
-            else : pass
-    
-        if cnt > 3 : print('No')
-        else : print('Yes')
-
-else : print('No')
+# 각 문자열을 정렬했을 때 두 문자열이 일치하는지 비교합니다.
+print("Yes" if sorted(str1) == sorted(str2) else "No")
