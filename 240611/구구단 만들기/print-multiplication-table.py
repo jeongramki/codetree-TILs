@@ -7,7 +7,7 @@ for i in range(b,a-1,-1) :
 
 for i in range(1,10) :
     for j in arr : 
-        if j != 2 : 
+        if j != arr[-1] : 
             print(f'{j} * {i} = {j*i} /' ,end=' ') 
         else : 
             print(f'{j} * {i} = {j*i}' ,end=' ') 
